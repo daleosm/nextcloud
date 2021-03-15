@@ -15,7 +15,7 @@
     name:
       - MariaDB-server
       - MariaDB-client
-    enablerepo: mariadb 
+    enablerepo: mariadb
     state: latest
   vars:
     ansible_python_interpreter: python2
