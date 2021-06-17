@@ -49,6 +49,7 @@
   command: |
     ./acme.sh
       --issue
+      --server letsencrypt
       --home {{ certificates_acmesh_dir }}
       --config-home {{ certificates_acmesh_dir }}/conf
       --domain {{ tls_certificate_common_name }}
